@@ -1,0 +1,17 @@
+<html>
+ <body>
+    <form th:action="@{/addform}" method="POST" th:object="${emp}">
+     <label>Emp id</label>
+    <input type="text" th:field="*{empId}"></input><br><br>
+     <label>Emp name</label>
+    <input type="text" th:field="*{empName}"></input><br><br>
+     <label>Emp salary</label>
+    <input type="text"th:field="*{salary}"></input><br><br>
+     <label>Emp address</label>
+    <input type="text" th:field="*{address}"></input><br><br>
+   
+    <input type="submit"></input><br><br>
+    
+    </form>
+ </body>
+</html>
