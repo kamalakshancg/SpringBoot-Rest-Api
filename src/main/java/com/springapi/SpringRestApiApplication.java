@@ -23,11 +23,13 @@ public class SpringRestApiApplication
 		Employee emp1 = new Employee(103,"kamalaksha", 24000, "Tumkur");
 		Employee emp2 =  new Employee(104, "kinnu", 24000,"Banglore");
 		
-		List<Employee> listof = List.of(emp1,emp2);
+		//List<Employee> listof = List.of(emp1,emp2);
 		
 		EmpRepository empRepo = context.getBean(EmpRepository.class);
 		
-		empRepo.saveAll(listof);
+		System.out.println("some changes made in main method");
+		
+		//empRepo.saveAll(listof);
 		
 		
 	}
