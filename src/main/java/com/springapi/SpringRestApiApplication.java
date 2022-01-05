@@ -31,7 +31,7 @@ public class SpringRestApiApplication
 		
 		//empRepo.saveAll(listof);
 		
-		System.out.println("Checking for Jenkins build);
+		System.out.println("Checking for Jenkins build");
 		
 	}
     
